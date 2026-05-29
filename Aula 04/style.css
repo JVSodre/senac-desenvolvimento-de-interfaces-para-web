@@ -1,0 +1,88 @@
+/* Extensão: VS HTML to CSS - Adiciona todas classes do HTML no CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cabecalho {
+    background-color: darkcyan;
+    color: white;
+    height: 12vh;
+    padding: 20px;
+}
+
+.cabecalho-titulo {
+    text-align: center;
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu-lista li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu-lista a{
+    text-decoration: none;
+    color: white;
+}
+
+.principal {
+    background-color: rgb(56, 129, 129);
+    padding: 20px;
+}
+
+.sobre, .familia {
+    background-color: rgb(124, 162, 165);
+    width: 80%;  /* Para larguras geralmente usamos % em vez de vw*/
+    margin: auto;
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    align-items: center;
+}
+
+.sobre img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.sobre{
+}
+
+.sobre-titulo {
+}
+
+.sobre-texto {
+}
+
+.familia img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.familia {
+    background-color: rgb(108, 152, 155);
+}
+
+.familia-titulo {
+}
+
+.familia-texto {
+}
+
+.rodape {
+    background-color: rgb(7, 110, 110);
+    color: white;
+    padding: 10px;
+}
+
+.rodape-texto {
+}

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "New Amsterdam", sans-serif;
+    color: white;
+}
+
+body{
+    background-color: #0D0D0D;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 150px;
+}
+
+.figmazillagigante{
+    z-index: -99;
+    height: 100vh;
+    width: auto;
+}
+
+.formulariologin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    gap: 100px;
+}
+
+.loginlateralentrarcentral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.usuario, .senha {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+input{
+    background-color: #D9D9D9;
+    border: none;
+    width: 622px;
+    height: 45px;
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 60px;
+    color: black;
+}
+
+#entrar{
+    width: 10vw;
+    height: 7vh;
+    font-size: 25px;
+    color: black;
+    background: #6C6C6C;
+    padding: 0;
+}
+
+.criarconta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.criarconta h6{
+    font-size: 20px;
+}
+
+.criarcontaa{
+    display: flex;
+    text-decoration: none;
+    background-color: #D9D9D9;
+    color: black;
+    height: 7vh;
+    width: 20vw;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.loginlateral{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.esquecisenha{
+    font-size: 15px;
+}
+
+.fogofigmazilla{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bodycriarconta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.criarconta2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+}
+
+.entraroutros{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.entraroutros h6{
+    font-size: 20px;
+}
+
+.entraroutros a{
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+.nomeusurariocriarconta, .emailcriarconta, .senhacriarconta, .confirmarsenhacriarconta{
+    display: flex;
+    flex-direction: column;
+}

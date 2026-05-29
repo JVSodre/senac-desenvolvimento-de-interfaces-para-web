@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(199, 199, 199);
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 4px 6px rgba(0,0,0,0.26);
+}
+
+.formularioprincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fieldsetformprincipal{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    align-items: start;
+    height: 65vh;
+    width: 30vw;
+    gap: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
+border-radius: 8px;
+}
+
+.nome, .email, .senha, .datanascimento, .feedback{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nome, .email, .senha, .feedback{
+    width: 400px;
+    gap: 7px;
+}
+
+input{
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    /* height: 30px; */
+    padding: 10px;
+}
+
+.feedback textarea{
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+}
+
+.enviarlimpar{
+    display: flex;
+    gap: 10px;
+}
+
+.enviarlimpar input{
+    display: flex;
+    padding: 10px;
+    width: 150px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#limpar{
+    background-color: rgb(206, 206, 206);
+}
+
+textarea{
+    resize: none;
+}

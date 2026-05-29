@@ -1,0 +1,41 @@
+*{    /* É importante usar essas caracteríticas, assim resetamos as configurações que já vem com o navegador*/
+    margin: 0;
+    padding: 0;                     
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Aqui definimos a altura da tela, para o flex conhecer o tamanho e centralizar na vertical também! */
+}
+.divizao {
+    background-color: rgb(235, 227, 227);
+    border: 2px solid black;
+    height: 700px;
+    width: 700px;
+}
+.vermelho {
+    background-color: rgb(255, 89, 89);
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.verdao {
+    background-color: rgb(116, 201, 116);
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 50px;
+    left: 220px;
+}
+.azulzao {
+    background-color: lightblue;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: -20px;
+    left: 380px;
+}

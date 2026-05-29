@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+/* tailwindcss.com */
+
+/* rodar sempre que abrir o arquivo */
+/* npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch */
+
+/* Instalar extensão do "Tailwind CSS IntelliSense */
